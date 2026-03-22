@@ -50,13 +50,13 @@ This project demonstrates:
 
 ---
 
-## Screenshots
+## Demo
 
-(Add your screenshots here)
 
-| Login                  | Feed                  | Detail                  | Favorites                  |
-| ---------------------- | --------------------- | ----------------------- | -------------------------- |
-| ![](screens/login.png) | ![](screens/feed.png) | ![](screens/detail.png) | ![](screens/favorites.png) |
+
+
+https://github.com/user-attachments/assets/3b5197b0-d186-4c56-be21-f5dedf263b12
+
 
 ---
 
