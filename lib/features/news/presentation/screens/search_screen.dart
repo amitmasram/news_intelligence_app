@@ -40,16 +40,20 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: TextField(
-          controller: _searchController,
-          autofocus: true,
-          decoration: const InputDecoration(
-            hintText: 'Search news...',
-            border: InputBorder.none,
-            hintStyle: TextStyle(color: Colors.white70),
+        titleSpacing: 0,
+        title: Padding(
+          padding: const EdgeInsets.only(left: 20.0),
+          child: TextField(
+            controller: _searchController,
+            autofocus: true,
+            decoration: const InputDecoration(
+              hintText: 'Search news...',
+              border: InputBorder.none,
+              hintStyle: TextStyle(color: Colors.black54),
+            ),
+            style: const TextStyle(color: Colors.black, fontSize: 18.0),
+            onChanged: _onSearchChanged,
           ),
-          style: const TextStyle(color: Colors.white, fontSize: 18.0),
-          onChanged: _onSearchChanged,
         ),
       ),
       body: _buildBody(newsState),

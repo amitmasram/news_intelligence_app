@@ -38,7 +38,7 @@ class ArticleDetailScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Article Detail'),
+        title: Text('Article Detail',style: context.heading2BoldMedium,),
         actions: [
           // Favorite toggle button
           IconButton(
