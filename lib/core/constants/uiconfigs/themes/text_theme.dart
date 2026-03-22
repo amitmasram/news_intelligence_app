@@ -1,0 +1,190 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'custom_text_theme.dart';
+
+const String fontFamily = 'Inter';
+
+/// =========== Light Theme Text Styles ===========
+
+final lightCustomTextTheme = CustomTextTheme(
+  // Tab TextStyle
+  display1BoldLarge: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w700,
+    fontSize: 32.sp,
+    height: 32 / 32,
+    letterSpacing: 0,
+    color: Colors.black,
+  ),
+  display1RegularLarge: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w400,
+    fontSize: 32.sp,
+    height: 37 / 32,
+    letterSpacing: 0,
+    color: Colors.black,
+  ),
+  display2BoldLarge: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w700,
+    fontSize: 30.sp,
+    height: 34 / 30,
+    letterSpacing: 0,
+    color: Colors.black,
+  ),
+  display2RegularLarge: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w400,
+    fontSize: 30.sp,
+    height: 34 / 30,
+    letterSpacing: 0,
+    color: Colors.black,
+  ),
+
+  // Mobile TextStyle
+  heading1BoldLarge: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w700,
+    fontSize: 26.sp,
+    height: 30 / 26,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  heading1RegularLarge: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w400,
+    fontSize: 26.sp,
+    height: 30 / 26,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  heading2BoldMedium: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w700,
+    fontSize: 22.sp,
+    height: 25 / 22,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  heading2RegularMedium: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w400,
+    fontSize: 22.sp,
+    height: 25 / 22, // fix this next
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  heading3BoldSmall: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w700,
+    fontSize: 20.sp,
+    height: 23 / 20,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  heading3RegularSmall: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w400,
+    fontSize: 20.sp,
+    height: 23 / 20,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  heading4BoldExtraSmall: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w700,
+    fontSize: 18.sp,
+    height: 21 / 18,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  heading4RegularExtraSmall: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w400,
+    fontSize: 18.sp,
+    height: 21 / 18,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  body1BoldLarge: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w700,
+    fontSize: 16.sp,
+    height: 18 / 16,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  body1MediumLarge: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w500,
+    fontSize: 16.sp,
+    height: 18 / 16,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  body1RegularLarge: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w400,
+    fontSize: 16.sp,
+    height: 18 / 16,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  body2BoldSmall: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w700,
+    fontSize: 14.sp,
+    height: 16 / 14,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  body2MediumSmall: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w500,
+    fontSize: 14.sp,
+    height: 16 / 14,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  body2RegularSmall: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w400,
+    fontSize: 14.sp,
+    height: 16 / 14,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  caption1Bold: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w700,
+    fontSize: 13.sp,
+    height: 15 / 13,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  caption1Regular: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w400,
+    fontSize: 13.sp,
+    height: 15 / 13,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  caption2Bold: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w700,
+    fontSize: 11.sp,
+    height: 13 / 11,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+  caption2Regular: TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w400,
+    fontSize: 11.sp,
+    height: 13 / 11,
+    letterSpacing: 0,
+    color: const Color(0xff3C3C3C),
+  ),
+);
+
