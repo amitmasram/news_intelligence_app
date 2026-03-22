@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:news_intelligence_app/core/constants/uiconfigs/themes/custom_text_theme.dart';
 import 'package:news_intelligence_app/features/news/presentation/providers/favorites_provider.dart';
 import 'package:news_intelligence_app/features/news/presentation/screens/article_detail_screen.dart';
 import 'package:news_intelligence_app/features/news/presentation/widgets/article_card.dart';
@@ -13,7 +14,7 @@ class FavoritesScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Favorite Articles'),
+        title:  Text('Favorite Articles',style: context.heading2BoldMedium,),
       ),
       body: favorites.isEmpty
           ? const Center(child: Text('No favorite articles yet'))
