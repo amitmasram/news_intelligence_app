@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
+
 import 'custom_text_theme.dart';
 
 const String fontFamily = 'Inter';
@@ -11,7 +11,7 @@ final lightCustomTextTheme = CustomTextTheme(
   display1BoldLarge: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w700,
-    fontSize: 32.sp,
+    fontSize: 32,
     height: 32 / 32,
     letterSpacing: 0,
     color: Colors.black,
@@ -19,7 +19,7 @@ final lightCustomTextTheme = CustomTextTheme(
   display1RegularLarge: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w400,
-    fontSize: 32.sp,
+    fontSize: 32,
     height: 37 / 32,
     letterSpacing: 0,
     color: Colors.black,
@@ -27,7 +27,7 @@ final lightCustomTextTheme = CustomTextTheme(
   display2BoldLarge: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w700,
-    fontSize: 30.sp,
+    fontSize: 30,
     height: 34 / 30,
     letterSpacing: 0,
     color: Colors.black,
@@ -35,7 +35,7 @@ final lightCustomTextTheme = CustomTextTheme(
   display2RegularLarge: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w400,
-    fontSize: 30.sp,
+    fontSize: 30,
     height: 34 / 30,
     letterSpacing: 0,
     color: Colors.black,
@@ -45,7 +45,7 @@ final lightCustomTextTheme = CustomTextTheme(
   heading1BoldLarge: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w700,
-    fontSize: 26.sp,
+    fontSize: 26,
     height: 30 / 26,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -53,7 +53,7 @@ final lightCustomTextTheme = CustomTextTheme(
   heading1RegularLarge: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w400,
-    fontSize: 26.sp,
+    fontSize: 26,
     height: 30 / 26,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -61,7 +61,7 @@ final lightCustomTextTheme = CustomTextTheme(
   heading2BoldMedium: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w700,
-    fontSize: 22.sp,
+    fontSize: 22,
     height: 25 / 22,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -69,7 +69,7 @@ final lightCustomTextTheme = CustomTextTheme(
   heading2RegularMedium: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w400,
-    fontSize: 22.sp,
+    fontSize: 22,
     height: 25 / 22, // fix this next
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -77,7 +77,7 @@ final lightCustomTextTheme = CustomTextTheme(
   heading3BoldSmall: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w700,
-    fontSize: 20.sp,
+    fontSize: 20,
     height: 23 / 20,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -85,7 +85,7 @@ final lightCustomTextTheme = CustomTextTheme(
   heading3RegularSmall: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w400,
-    fontSize: 20.sp,
+    fontSize: 20,
     height: 23 / 20,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -93,7 +93,7 @@ final lightCustomTextTheme = CustomTextTheme(
   heading4BoldExtraSmall: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w700,
-    fontSize: 18.sp,
+    fontSize: 18,
     height: 21 / 18,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -101,7 +101,7 @@ final lightCustomTextTheme = CustomTextTheme(
   heading4RegularExtraSmall: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w400,
-    fontSize: 18.sp,
+    fontSize: 18,
     height: 21 / 18,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -109,7 +109,7 @@ final lightCustomTextTheme = CustomTextTheme(
   body1BoldLarge: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w700,
-    fontSize: 16.sp,
+    fontSize: 16,
     height: 18 / 16,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -117,7 +117,7 @@ final lightCustomTextTheme = CustomTextTheme(
   body1MediumLarge: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w500,
-    fontSize: 16.sp,
+    fontSize: 16,
     height: 18 / 16,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -125,7 +125,7 @@ final lightCustomTextTheme = CustomTextTheme(
   body1RegularLarge: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w400,
-    fontSize: 16.sp,
+    fontSize: 16,
     height: 18 / 16,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -133,7 +133,7 @@ final lightCustomTextTheme = CustomTextTheme(
   body2BoldSmall: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w700,
-    fontSize: 14.sp,
+    fontSize: 14,
     height: 16 / 14,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -141,7 +141,7 @@ final lightCustomTextTheme = CustomTextTheme(
   body2MediumSmall: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w500,
-    fontSize: 14.sp,
+    fontSize: 14,
     height: 16 / 14,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -149,7 +149,7 @@ final lightCustomTextTheme = CustomTextTheme(
   body2RegularSmall: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w400,
-    fontSize: 14.sp,
+    fontSize: 14,
     height: 16 / 14,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -157,7 +157,7 @@ final lightCustomTextTheme = CustomTextTheme(
   caption1Bold: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w700,
-    fontSize: 13.sp,
+    fontSize: 13,
     height: 15 / 13,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -165,7 +165,7 @@ final lightCustomTextTheme = CustomTextTheme(
   caption1Regular: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w400,
-    fontSize: 13.sp,
+    fontSize: 13,
     height: 15 / 13,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -173,7 +173,7 @@ final lightCustomTextTheme = CustomTextTheme(
   caption2Bold: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w700,
-    fontSize: 11.sp,
+    fontSize: 11,
     height: 13 / 11,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),
@@ -181,7 +181,7 @@ final lightCustomTextTheme = CustomTextTheme(
   caption2Regular: TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w400,
-    fontSize: 11.sp,
+    fontSize: 11,
     height: 13 / 11,
     letterSpacing: 0,
     color: const Color(0xff3C3C3C),

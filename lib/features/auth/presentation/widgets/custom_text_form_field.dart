@@ -26,28 +26,32 @@ class CustomTextFormField extends StatelessWidget {
       onChanged: onChanged,
       decoration: InputDecoration(
         labelText: labelText,
+        // Default border style when enabled.
         enabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.all(Radius.circular(8.0)),
+          borderRadius: const BorderRadius.all(Radius.circular(8.0)),
           borderSide: BorderSide(
             color: Colors.grey.shade400,
             width: 1.0,
           ),
         ),
-        focusedBorder: OutlineInputBorder(
+        // Border style when focused/active.
+        focusedBorder: const OutlineInputBorder(
           borderRadius: BorderRadius.all(Radius.circular(8.0)),
           borderSide: BorderSide(
             color: AppColors.primary,
             width: 2.0,
           ),
         ),
-        errorBorder: OutlineInputBorder(
+        // Border style when there's an error.
+        errorBorder: const OutlineInputBorder(
           borderRadius: BorderRadius.all(Radius.circular(8.0)),
           borderSide: BorderSide(
             color: Colors.red,
             width: 1.0,
           ),
         ),
-        focusedErrorBorder: OutlineInputBorder(
+        // Border style when focused and there's an error.
+        focusedErrorBorder: const OutlineInputBorder(
           borderRadius: BorderRadius.all(Radius.circular(8.0)),
           borderSide: BorderSide(
             color: Colors.red,

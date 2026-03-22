@@ -1,0 +1,15 @@
+﻿Analyzing news_intelligence_app...                              
+
+   info - Parameter 'message' could be a super parameter - lib\core\error\failures.dart:7:3 - use_super_parameters
+   info - Parameter 'message' could be a super parameter - lib\core\error\failures.dart:11:3 - use_super_parameters
+   info - Parameter 'message' could be a super parameter - lib\core\error\failures.dart:15:3 - use_super_parameters
+   info - The type parameter name 'Type' matches a visible type name - lib\core\usecase\usecase.dart:4:24 - avoid_types_as_parameter_names
+   info - Don't invoke 'print' in production code - lib\features\news\data\datasources\favorites_local_datasource.dart:19:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\news\data\datasources\favorites_local_datasource.dart:21:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\news\data\datasources\favorites_local_datasource.dart:26:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\news\data\datasources\favorites_local_datasource.dart:28:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\news\presentation\providers\favorites_provider.dart:39:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\news\presentation\providers\favorites_provider.dart:42:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\news\presentation\providers\favorites_provider.dart:46:5 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\news\presentation\widgets\article_card.dart:26:35 - deprecated_member_use
+

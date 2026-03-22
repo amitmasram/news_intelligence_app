@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:news_intelligence_app/core/constants/uiconfigs/themes/custom_text_theme.dart';
 import 'package:news_intelligence_app/features/auth/presentation/providers/auth_provider.dart';
-import 'package:news_intelligence_app/shared/widgets/custom_text_form_field.dart';
+import 'package:news_intelligence_app/features/auth/presentation/widgets/custom_text_form_field.dart';
 
 class LoginScreen extends ConsumerStatefulWidget {
   const LoginScreen({super.key});
@@ -41,11 +41,15 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   const SizedBox(height: 100.0),
+                  
+                  // -- Header Section --
                   Text(
                     'Login Screen',
                     style: context.heading2BoldMedium,
                   ),
                   const SizedBox(height: 80.0),
+                  
+                  // -- Input Fields --
                   CustomTextFormField(
                     controller: _usernameController,
                     labelText: 'Username',
@@ -72,6 +76,8 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                     },
                   ),
                   const SizedBox(height: 22.0),
+                  
+                  // -- Error Message Display --
                   if (authState.isError)
                     Padding(
                       padding: const EdgeInsets.only(bottom: 16.0),
@@ -80,14 +86,17 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                         style: const TextStyle(color: Colors.red),
                       ),
                     ),
+                  
+                  // -- Action Buttons --
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.blue,
                       minimumSize: const Size(200, 48),
                     ),
                     onPressed: authState.isLoading
-                        ? null
+                        ? null // Disable button while loading
                         : () {
+                            // Validate form before triggering login
                             if (_formKey.currentState!.validate()) {
                               ref.read(authNotifierProvider.notifier).login(
                                     _usernameController.text,
